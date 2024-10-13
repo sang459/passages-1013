@@ -46,8 +46,15 @@
     </style>
 </head>
 <body>
-    <a href="https://aardvark-difficulty-adjustment.streamlit.app/" class="floating-button button-1">지문 난이도 조절하러 가기</a>
-    <a href="https://aardvark-options.streamlit.app/" class="floating-button button-2">선지 쓰러 가기</a>
+    <a href="#" class="floating-button button-1" onclick="showAlert(); return false;">지문 난이도 조절하러 가기</a>
+    <a href="#" class="floating-button button-2" onclick="showAlert(); return false;">선지 쓰러 가기</a>
+    
+    <script>
+    function showAlert() {
+        alert("기능을 써보시려면 사전체험을 신청해주세요.");
+    }
+    </script>
+    
     <div class="passage-container" id="passage-0">
         <details>
             <summary>이전 문단 보기</summary>
